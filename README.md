@@ -1,6 +1,6 @@
 # Loan-Approval-System-using-Machine-Learning
 
-Purpose: Through this model, I'm trying to build an ML supervised model for loan approval, presented as a minor project 
+Purpose: Through this machine learning model, the likelihood of an applicant's portfolio being rejected or accepted is determined based on various features and the effect is computed for better understanding 
 
 Dataset Details: The Loan Approval Dataset is used with 1000 rows and 20 columns 
 
@@ -12,6 +12,12 @@ Models used/tried: Used KNeighborsClassifier, Naive Bayes and LogisticRegression
 
 Evaluation parameters used: Accuracy Score, F1 Score, Precision, Recall & Confusion Matrix 
 
-Result: KNN gave a better accuracy than LogisticRegression, but Naive Bayes gave the best result 
+Result: 
+Accuracy and Precision obtained for every model: 
+1. KNN Accuracy Score = 76% , KNN Precision Score = 62%
+2. LogisticRegression Accuracy Score = 86% , LogisticRegression Precision Score = 78%
+3. Naive Bayes Accuracy Score = 80 % , Naive Bayes Precision Score = 80 %
+
+LogisticRegression gave a better accuracy than KNN, but Naive Bayes gave the best result among all  
 
 Future Scope: Feature Engineering can be conducted to improve the model accuracy 
